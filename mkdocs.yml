@@ -1,0 +1,44 @@
+site_name: GSCU 全球亚文化俱乐部联盟
+site_url: https://marchbeta2087.github.io/GSCU/
+docs_dir: .        # 保持现有结构
+site_dir: site
+
+theme:
+  name: material
+  language: zh
+  palette:
+    - scheme: default
+      primary: purple
+      accent: purple
+      toggle:
+        icon: material/brightness-7
+        name: 切换到深色模式
+    - scheme: slate
+      primary: purple
+      accent: purple
+      toggle:
+        icon: material/brightness-4
+        name: 切换到浅色模式
+
+# 排除不需要的目录
+exclude_docs: |
+  .github/
+  .git/
+  hooks/
+  site/
+  *.yml
+  *.py
+  .gitignore
+  README.md
+  ChangeLog.md
+
+# 使用 extra 变量
+extra:
+  img_path: /GSCU/图片/
+
+plugins:
+  - search
+
+# MkDocs 1.4+ 的 hooks 配置（使用 Python 脚本作为模块）
+hooks:
+  - hooks/copy_images.py

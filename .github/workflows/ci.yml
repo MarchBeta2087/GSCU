@@ -1,0 +1,39 @@
+name: ci
+on:
+  push:
+    branches:
+      - master
+      - main
+permissions:
+  contents: write
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      
+      - name: Configure Git Credentials
+        run: |
+          git config user.name github-actions[bot]
+          git config user.email 41898282+github-actions[bot]@users.noreply.github.com
+      
+      - uses: actions/setup-python@v5
+        with:
+          python-version: 3.x
+      
+      # 修复：使用周数作为缓存 key，而不是 commit sha
+      - run: echo "cache_id=$(date --utc '+%V')" >> $GITHUB_ENV
+      
+      - uses: actions/cache@v4
+        with:
+          key: mkdocs-material-${{ env.cache_id }}
+          path: ~/.cache
+          restore-keys: |
+            mkdocs-material-
+      
+      - run: pip install mkdocs-material
+      
+      # 确保图片目录存在（如果不存在则创建空目录）
+      - run: mkdir -p 图片
+      
+      - run: mkdocs gh-deploy --force
