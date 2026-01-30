@@ -11,29 +11,31 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      
-      - name: Configure Git Credentials
-        run: |
-          git config user.name github-actions[bot]
-          git config user.email 41898282+github-actions[bot]@users.noreply.github.com
-      
+
       - uses: actions/setup-python@v5
         with:
           python-version: 3.x
-      
-      # 修复：使用周数作为缓存 key，而不是 commit sha
-      - run: echo "cache_id=$(date --utc '+%V')" >> $GITHUB_ENV
-      
-      - uses: actions/cache@v4
-        with:
-          key: mkdocs-material-${{ env.cache_id }}
-          path: ~/.cache
-          restore-keys: |
-            mkdocs-material-
-      
+
       - run: pip install mkdocs-material
-      
-      # 确保图片目录存在（如果不存在则创建空目录）
-      - run: mkdir -p 图片
-      
-      - run: mkdocs gh-deploy --force
+
+      # ========== 部署到项目站点：marchbeta2087.github.io/GSCU/ ==========
+      - name: Build for Project Site
+        run: mkdocs build
+
+      - name: Deploy to Project Site
+        run: mkdocs gh-deploy --force
+
+      # ========== 部署到用户站点：marchbeta2087.github.io/ ==========
+      - name: Build for User Site
+        run: |
+          mkdocs build -f mkdocs.user.yml
+          # 创建 .nojekyll 文件（GitHub Pages 不处理 Jekyll）
+          touch site_user/.nojekyll
+
+      - name: Deploy to User Site
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_branch: main
+          publish_dir: ./site_user
+          external_repository: MarchBeta2087/marchbeta2087.github.io
