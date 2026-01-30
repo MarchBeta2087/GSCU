@@ -1,8 +1,12 @@
 # ChangeLog.md
 
+## v8.2 Release
+
+1. 将文档内容（Markdown 和图片）全部迁移到 docs 目录下
+
 ## v8.1.2 Release
 
-1. 删除了一个触发MD012的空行，调整了一些内部链接。
+1. 删除了一个触发 MD012 的空行，调整了一些内部链接。
    1. README.md
 
 ## v8.1.1 Release
