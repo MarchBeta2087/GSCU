@@ -1,6 +1,6 @@
 # ChangeLog.md
 
-## v8.2 Release
+## v8.2.1 Release
 
 1. 在 README.md 补上了 docs 目录下的 index.md
    1. README.md
