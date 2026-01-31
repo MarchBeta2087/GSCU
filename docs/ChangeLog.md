@@ -2,6 +2,11 @@
 
 ## v8.2 Release
 
+1. 在 README.md 补上了 docs 目录下的 index.md
+   1. README.md
+
+## v8.2 Release
+
 1. 将文档内容（Markdown 和图片）全部迁移到 docs 目录下
 
 ## v8.1.2 Release
