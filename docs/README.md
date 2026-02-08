@@ -85,6 +85,7 @@
 |        |-- .markdownlint.json
 |        |-- README.md
 |        |-- ChangeLog.md
+|        |-- CONTRIBUTORS.md
 |        |-- index.md
 |    |-- mkdocs.yml
 ```
@@ -172,9 +173,9 @@
 2065        │  [未来] GPC65升级，应对俱乐部代号耗尽危机
 ```
 
-本设定集最后更新：2026-02-08 18:51 CST（2026-02-08 10:51 UTC）
+本设定集最后更新：2026-02-08 23:27 CST（2026-02-08 15:27 UTC）
 
-版本：v10 Release
+版本：v10 Second Edition (v10.1)
 
 仓库链接：[`https://github.com/MarchBeta2087/GSCU`](https://github.com/MarchBeta2087/GSCU)
 
