@@ -6,6 +6,7 @@
 ## v10 Second Edition 2026 年 2 月 8 日 23:27
 1. 调整标题，微调内容。
    1. GSCU介绍及附件文档/如何成为GSCU的一名研究员.md
+   2. 其他文档/我在 GSCU 当画师的这 9 年里
 2. 新增：CONTRIBUTORS.md。
 
 ## v10 Release 2026 年 2 月 8 日 18:51
