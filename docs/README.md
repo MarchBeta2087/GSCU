@@ -12,13 +12,15 @@
 
 图片制作过程使用了以下工具与字体：
 
-**软件：** GIMP
+**绘图软件：** `GIMP`、`MS Paint`
 
-**AI：** 豆包（Seedream 系列图片生成模型）、Gemini（Nano Banana 系列图片生成模型）
+**图像处理库：** `Pillow`
 
-**字体：** MiSans、GNU Unifont
+**AI：** `豆包（Seedream 系列图片生成模型）`、`Gemini（Nano Banana 系列图片生成模型）`
 
-**地图软件：** Google Earth
+**字体：** `MiSans`、`GNU Unifont`
+
+**地图软件：** `Google Earth`、`NASA G.Projector`
 
 ## 📖 项目简介
 
@@ -190,9 +192,9 @@
 2065        │  [未来] GPC65 升级，应对俱乐部代号耗尽危机
 ```
 
-本设定集最后更新：2026-02-09 20:50 CST（2026-02-09 12:50 UTC）
+本设定集最后更新：2026-02-09 23:34 CST（2026-02-09 15:34 UTC）
 
-版本：v11 Release
+版本：v11.0.1
 
 仓库链接：[`https://github.com/MarchBeta2087/GSCU`](https://github.com/MarchBeta2087/GSCU)
 
