@@ -6,6 +6,18 @@
 
 ---
 
+![GSCU Banner](./图片/GSCU_Banner.png)
+
+本项目包含大量 Markdown 文档与 PNG 图片。
+
+图片制作过程使用了以下工具与字体：
+
+**软件：** GIMP
+
+**AI：** 豆包（Seedream 系列图片生成模型）、Gemini（Nano Banana 系列图片生成模型）
+
+**字体：** MiSans、GNU Unifont
+
 ## 📖 项目简介
 
 这是一个设定在 **2040-2060 年** 的近未来科幻世界观项目，描绘了**全球亚文化俱乐部联盟（GSCU）**——一个由数千万"研究员"组成的去中心化亚文化保护组织的兴衰与未来。
@@ -175,9 +187,9 @@
 2065        │  [未来] GPC65 升级，应对俱乐部代号耗尽危机
 ```
 
-本设定集最后更新：2026-02-09 17:30 CST（2026-02-09 09:30 UTC）
+本设定集最后更新：2026-02-09 19:17 CST（2026-02-09 11:17 UTC）
 
-版本：v11 Alpha
+版本：v11 Beta
 
 仓库链接：[`https://github.com/MarchBeta2087/GSCU`](https://github.com/MarchBeta2087/GSCU)
 
