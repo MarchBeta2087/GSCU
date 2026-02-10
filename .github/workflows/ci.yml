@@ -6,6 +6,8 @@ on:
       - main
 permissions:
   contents: write
+env:
+  cache_id: dummy # 这是用来跳过 VS Code 的"env.cache_id 可能不存在"警告的，虽然其实 env.cache_id 并没有什么问题。这一条不要删。
 jobs:
   deploy:
     runs-on: ubuntu-latest
