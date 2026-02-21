@@ -101,6 +101,7 @@
 |            |-- ......
 |        |-- javascripts/
 |            |-- katex.js
+|        |-- greywhale-extend/    注：Greywhale 扩展内容。
 |        |-- .markdownlint.json
 |        |-- README.md
 |        |-- ChangeLog.md
