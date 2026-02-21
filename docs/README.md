@@ -192,10 +192,12 @@
 2065        │  [未来] GPC65 升级，应对俱乐部代号耗尽危机
 ```
 
-本设定集最后更新：2026-02-21 14:36 CST（2026-02-21 06:36 UTC）
+本设定集最后更新：2026-02-21 15:13 CST（2026-02-21 07:13 UTC）
 
-版本：v11.2.1
+版本：Greywhale（v11.3-greywhale_20260221_01）
 
-仓库链接：[`https://github.com/MarchBeta2087/GSCU`](https://github.com/MarchBeta2087/GSCU)
+仓库链接（主分支，已暂停更新，版本 v11.2.1）：[`https://github.com/MarchBeta2087/GSCU/tree/main`](https://github.com/MarchBeta2087/GSCU/tree/main)
 
-在线文档库链接：[`https://marchbeta2087.github.io/GSCU/`](https://marchbeta2087.github.io/GSCU/)
+仓库链接（Codename: Greywhale）：[`https://github.com/MarchBeta2087/GSCU/tree/greywhale`](https://github.com/MarchBeta2087/GSCU/tree/greywhale)
+
+在线文档库链接（已暂停更新，版本 v11.2.1）：[`https://marchbeta2087.github.io/GSCU/`](https://marchbeta2087.github.io/GSCU/)
