@@ -6,7 +6,7 @@
 ## v11.3-greywhale_20260227_01 2026 年 2 月 27 日 12:38
 
 1. 添加"奥术超级联合会"（SLA）的介绍。
-   1. 俱乐部介绍及附件文档/SLA/greywhale-extend/奥术超级联合会.md
+   1. greywhale-extend/俱乐部介绍及附件文档/SLA/奥术超级联合会.md
 
 ## v11.3-greywhale_20260221_01 2026 年 2 月 21 日 15:13
 1. `greywhale` 分支已创建。
