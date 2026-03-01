@@ -132,7 +132,7 @@ Ola gigante（2056.3 -）：一只巨大的机械灰鲸，眼睛常常发绿光�
 
 2059 年 2 月，他又开发了第二款程序 *SliverFishChem*，程序大小约为 3,500,000 字节，代码行数约 10.3k LOC（他认为这还是太大了，于是在 2059 年 12 月重做，对非核心功能进行了简化，并添加了插件功能，重做后代码行数增加到约 36.5k LOC，内置了一个简易的 C89/C99 编译器（不是用来写 DOS 程序的，而是专门用来给《SliverFishChem》写插件的），但大小减少到约 480,000 字节），适用于 MS-DOS 和 FreeDOS，使用 Turbo C 2.0 编译，开源许可证为 GPLv3，是一款化学 3D 建模软件，可用于绘制分子结构建模。
 
-2059 年 7 月，他开发了第三款程序 *Pixals16*，分为 Windows 3.1 版和 DOS 版两个版本，使用 Open Watcom C 编译，核心代码行数约 12.6k LOC，Windows 3.1 版总行数约为 18.6k LOC，大小约 330,000 字节，DOS 版总行数约为 17.2k LOC，大小约 260,000 字节，核心代码采用 Apache 2.0 许可证（他认为，GPLv3 与 iOS 的 App Store 存在条款冲突，核心代码采用 Apache 2.0 是为了方便 iOS 开发者对核心代码进行修改，并为 iOS 开发框架，最终顺利上架到 App Store，整个 App 的源码仍然能以 Apache 2.0 或者除 GPL 以外的其他可合并 Apache 2.0 代码的许可证开源，也可以选择闭源；当然，其他操作系统，包括但不限于 Windows、Android、Linux、FreeBSD、macOS（除 App Store 外。要在 App Store 上架，不要使用 GPL 许可证）、Haiku，可以选择包括 GPLv3 在内的可合并 Apache 2.0 代码的一切许可证（GPLv1/GPLv2 除外），也可以选择闭源），Windows 3.1 版和 DOS 版程序均采用 GPLv3 许可证。
+2059 年 7 月，他开发了第三款程序 *Pixals16*，分为 Windows 3.1 版和 DOS 版两个版本，使用 Open Watcom C 编译，核心代码行数约 12.6k LOC，Windows 3.1 版总行数约为 18.6k LOC，大小约 330,000 字节，DOS 版总行数约为 17.2k LOC，大小约 260,000 字节，核心代码采用 Apache 2.0 许可证（他认为，GPLv3 与 iOS 的 App Store 存在条款冲突，核心代码采用 Apache 2.0 是为了方便 iOS 开发者对核心代码进行修改，并为 iOS 开发框架，最终顺利上架到 App Store，整个 App 的源码仍然能以 Apache 2.0 或者除 GPL 以外的其他可合并 Apache 2.0 代码的许可证开源，也可以选择闭源；当然，其他操作系统，包括但不限于 Windows、Android、Linux、FreeBSD、macOS（除 App Store 外。要在 App Store 上架，不要使用 GPL 许可证）、Haiku，可以选择 Apache 2.0 或者包括 GPLv3 在内的可合并 Apache 2.0 代码的一切许可证（GPLv1/GPLv2 除外），也可以选择闭源），Windows 3.1 版和 DOS 版程序均采用 GPLv3 许可证。
 
 *Pixals16* 是一款类似于 VOCALOID 的程序，它使用的声库非常特殊，是一个后缀为"PST"的大文件（虽然其实通常只有几 MB 甚至数百 KB），所有数据强制小端序。
 
