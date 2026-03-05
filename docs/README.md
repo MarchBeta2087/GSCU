@@ -197,8 +197,8 @@
 
 版本：Greywhale（v11.3-greywhale_20260302_01）
 
-仓库链接（主分支，已暂停更新，版本 v11.2.1）：[`https://github.com/MarchBeta2087/GSCU/tree/main`](https://github.com/MarchBeta2087/GSCU/tree/main)
+仓库链接（主分支，已暂停更新，版本 v11.2.1-sp1）：[`https://github.com/MarchBeta2087/GSCU/tree/main`](https://github.com/MarchBeta2087/GSCU/tree/main)
 
 仓库链接（Codename: Greywhale）：[`https://github.com/MarchBeta2087/GSCU/tree/greywhale`](https://github.com/MarchBeta2087/GSCU/tree/greywhale)
 
-在线文档库链接（已暂停更新，版本 v11.2.1）：[`https://marchbeta2087.github.io/GSCU/`](https://marchbeta2087.github.io/GSCU/)
+在线文档库链接（已暂停更新，版本 v11.2.1-sp1）：[`https://marchbeta2087.github.io/GSCU/`](https://marchbeta2087.github.io/GSCU/)
