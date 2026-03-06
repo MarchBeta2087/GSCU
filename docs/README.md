@@ -102,6 +102,15 @@
 |        |-- javascripts/
 |            |-- katex.js
 |        |-- greywhale-extend/    注：Greywhale 扩展内容。
+|            |-- 俱乐部介绍及附件文档/
+|                |-- LFN/
+|                    |-- Greywhale_莱芙宁骑士团 部分研究员资料.md
+|                |-- SLA/
+|                    |-- 奥术超级联合会.md
+|                    |-- Greywhale_奥术超级联合会 部分研究员资料.md
+|            |-- 其他文档/
+|                |-- 帕依娜・歌莉丝的自我介绍.md
+|                |-- 个人与社区的生存之道.md
 |        |-- .markdownlint.json
 |        |-- README.md
 |        |-- ChangeLog.md
@@ -193,9 +202,9 @@
 2065        │  [未来] GPC65 升级，应对俱乐部代号耗尽危机
 ```
 
-本设定集最后更新：2026-03-02 14:58 CST（2026-03-02 06:58 UTC）
+本设定集最后更新：2026-03-06 16:24 CST（2026-03-06 08:24 UTC）
 
-版本：Greywhale（v11.3-greywhale_20260302_01）
+版本：Greywhale（v11.3-greywhale_20260306_01）
 
 仓库链接（主分支，已暂停更新，版本 v11.2.1-sp1）：[`https://github.com/MarchBeta2087/GSCU/tree/main`](https://github.com/MarchBeta2087/GSCU/tree/main)
 
